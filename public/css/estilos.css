@@ -1,0 +1,27 @@
+#tbllistcorr
+{
+    width: 100%;         
+    border: 5px solid;    
+}
+
+button.blancobold
+{
+    color: white;
+    background-color: #0582ca;
+}
+
+
+thead
+{
+    background-color: #0582ca;
+}
+
+table th{
+    
+    color: white !important;
+}
+
+.btnexcel
+{
+    background-color: #27ae60;
+}

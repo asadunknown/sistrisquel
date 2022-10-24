@@ -1,0 +1,87 @@
+<div class="wrapper titulo">
+  <p class="title">TRI<span class="amarillo">$</span>QUEL S.A DE C.V.</p>   
+</div>
+
+<style>
+  /* 
+  Based from this article from Divya Manian - 
+  http://nimbupani.com/using-background-clip-for-text-with-css-fallback.html
+*/
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+*,
+:before,
+:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+div.titulo {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.title {
+    font-size: 3em;
+    position: relative;
+    margin: 0 auto 1em;
+    padding: 1em 1em .25em 1em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: -3%;
+    margin-top: -20%
+}
+.title:after {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    width: 240px;
+    height: 4px;
+    margin-left: -120px;
+    content: '';
+    background-color: #fff;
+}
+
+.amarillo
+{
+    color: yellow;
+}
+    
+    
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
